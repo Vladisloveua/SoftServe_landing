@@ -35,10 +35,10 @@
             <a href="contact" class="header-link link">Contact</a>
             </li>
         </ul>
+    </nav>
         <a href="#home" class="header-logo link">
             <img src="./images/logo.svg" alt="Website logo" width="186" height="58" />
         </a>
-        </nav>
         <ul class="header-socials list">
         <li class="header-socials-item">
             <a href="https://twitter.com/" target="_blank" class="header-socials-link link">
@@ -56,7 +56,54 @@
             </a>
         </li>
         </ul>
+    <button type="button" class="button-menu-icon button-menu-icon-open button">
+        <img src="./images/open-menu.svg" alt="Burger open button" width="40" height="32" class="button-menu-icon"/>
+    </button>
     </div>
+    <div class="mob-menu is-hidden">
+          <div class="mob-menu-container">
+              <button type="button" class="button-menu-icon button-menu-icon-close button">
+                <img src="./images/close-menu.svg" alt="Burger close button" width="20" height="32" class="button-menu-icon"/>
+              </button>
+                <nav class="mob-header-nav">
+                <ul class="mob-header-list list">
+                    <li class="mob-header-item">
+                    <a href="#home" class="mob-header-link link">Home</a>
+                    </li>
+                    <li class="mob-header-item">
+                    <a href="#product" class="mob-header-link link">Product</a>
+                    </li>
+                    <li class="mob-header-item">
+                    <a href="#pricing" class="mob-header-link link">Pricing</a>
+                    </li>
+                    <li class="mob-header-item">
+                    <a href="#about" class="mob-header-link link">About</a>
+                    </li>
+                    <li class="mob-header-item">
+                    <a href="contact" class="mob-header-link link">Contact</a>
+                    </li>
+                </ul>
+                </nav>
+        <ul class="mob-header-socials list">
+        <li class="mob-header-socials-item">
+            <a href="https://twitter.com/" target="_blank" class="mob-header-socials-link link">
+            <img src="./images/socials/twitter.svg" alt="Twitter logo" width="33" height="27" />
+            </a>
+        </li>
+        <li class="mob-header-socials-item">
+            <a href="https://uk-ua.facebook.com/" target="_blank" class="mob-header-socials-link link">
+            <img src="./images/socials/facebook.svg" alt="Facebook logo" width="32" height="32" />
+            </a>
+        </li>
+        <li class="mob-header-socials-item">
+            <a href="https://www.linkedin.com/" target="_blank" class="mob-header-socials-link link">
+            <img src="./images/socials/linkedin.svg" alt="Linkedin logo" width="32" height="32" />
+            </a>
+        </li>
+        </ul>
+            </div>
+            </div>
+
     </header>
 
     <main>
@@ -66,10 +113,13 @@
         <p class="hero-text">
             Most calendars are designed for teams. Slate is designed for freelancers
         </p>
+        <p class="hero-text-mob">
+            Most calendars are designed for teams.
+        </p>
         <button class="hero-button button">Try for Free</button>
         </div>
     </section>
-    <section class="features-section">
+    <!-- <section class="features-section">
         <div class="features-container container">
         <h2 class="features-title">Features</h2>
         <p class="features-text">
@@ -503,9 +553,10 @@
             </div>
         </div>
         </div>
-    </section>
+    </section> -->
     </main>
-    <footer class="footer">
+
+    <!-- <footer class="footer">
     <ul class="footer-nav-wrap list">
         <li class="footer-nav-item">
         <h2 class="footer-title">Pages</h2>
@@ -616,6 +667,8 @@
         </li>
         </ul>
     </div>
-    </footer>
+    </footer> -->
+
+    <script src="./js/menu.js"></script>
 </body>
 </html>
